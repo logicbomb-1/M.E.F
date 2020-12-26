@@ -48,7 +48,7 @@ where targets.txt is the file containing all the domains.
 
 ## Contributing
 
-Please feel free to contribute to make it much better and faster.
+Please feel free to contribute to make it much better and faster. Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Versioning
 
