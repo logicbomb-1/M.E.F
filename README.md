@@ -29,7 +29,7 @@ pip3 install -r requirements.txt
 python3 endpoint_finder.py -p <target file>
 ```
 
-where <target file> is the file containing all the domains.
+where "target file" is the file containing all the domains.
 
 ## Deployment
 
