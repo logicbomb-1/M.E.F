@@ -38,17 +38,13 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Deployment
 
-To run
+To quickly run the docker image, run the below command
+docker run -it --rm --name eef16 -v /targets.txt:/targets.txt logicbomb1/docker-eef:latest python3 endpoint_finder.py -p targets.txt
+
+where targets.txt is the file containing all the domains.
+
 
 ## Built With
 
