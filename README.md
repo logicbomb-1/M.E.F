@@ -8,10 +8,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+It needs the below packages to be in your system setup. To install packages, run pip3 install -r requirements.txt. Note - You need to install subfinder explicitly. 
 
 ```
-Give examples
+Subfinder
+certifi
+chardet
+idna
+python-nmap
+requests
+urllib3
 ```
 
 ### Installing
@@ -42,7 +48,7 @@ Give an example
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+To run
 
 ## Built With
 
