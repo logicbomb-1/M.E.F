@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-It needs the below packages to be in your system setup. To install packages, run pip3 install -r requirements.txt. Note - You need to install subfinder explicitly. 
+It needs the below packages to be in your system setup. Note:- You need to install subfinder explicitly. 
 
 ```
 Subfinder
@@ -22,7 +22,7 @@ urllib3
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running:
+A step by step series of examples that tell you how to get the project running:
 
 ```
 pip3 install -r requirements.txt
