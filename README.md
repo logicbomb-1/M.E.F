@@ -20,7 +20,7 @@ requests
 urllib3
 ```
 
-### Installing
+### Installing and Usage
 
 A step by step series of examples that tell you how to get the project running:
 
