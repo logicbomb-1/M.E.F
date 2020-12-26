@@ -1,6 +1,6 @@
 # Misconfigured Endpoint Finder (M.E.F)
 
-This is M.E.F, a python project to detect exposed misconfigured enpoint in the given list of domains along with performing port scanning of critical ports.
+This is M.E.F, a python project to detect exposed misconfigured enpoint in the given list of domains along with performing port scanning of critical ports. It scans the domains to get thier subdomains using subfinder and perform port scanning and find misconfigured enpoint in the subdomains of domains list.
 
 ## Getting Started
 
@@ -40,8 +40,10 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Deployment
 
-To quickly run the docker image, run the below command
+To quickly run the docker image, run the below command 
+```
 docker run -it --rm --name eef16 -v /targets.txt:/targets.txt logicbomb1/docker-eef:latest python3 endpoint_finder.py -p targets.txt
+```
 
 where targets.txt is the file containing all the domains.
 
