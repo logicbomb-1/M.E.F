@@ -59,7 +59,7 @@ I am  using [SemVer](http://semver.org/) for versioning. For the versions availa
 
 ## Authors
 
-* **Avinash Jain** - [logicbomb-1](https://github.com/logicbomb-1/)
+* **Avinash Jain** - [logicbomb-1](https://twitter.com/logicbomb_1)
 
 See also the list of [contributors](https://github.com/logicbomb-1/M.E.F/contributors) who participated in this project.
 
@@ -69,6 +69,4 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Subfinder from Projectdiscovery (https://github.com/projectdiscovery/subfinder)
