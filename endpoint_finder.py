@@ -101,12 +101,6 @@ def endpoint_check(file_path):
                         print(full_url)
                     else:
                         continue
-                except requests.exceptions.ConnectionError:
-                    # The website isn't responding, could be a multitude of reasons, ranging from the website
-                    # being under VPN to it just plainly not responding to GET requests
-                    continue
-                except requests.exceptions.InvalidURL:
-                    continue
                 except Exception as e:
                     # Any exception apart from ConnectionError will be handled
                     continue
