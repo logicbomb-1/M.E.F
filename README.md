@@ -24,25 +24,18 @@ urllib3
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
-
 ```
-Give the example
-```
-
-And repeat
-
-```
-until finished
+pip3 install -r requirements.txt
+python3 endpoint_finder.py -p <target file>
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+where <target file> is the file containing all the domains.
 
 ## Deployment
 
 To quickly run the docker image, run the below command 
 ```
-docker run -it --rm --name eef16 -v /targets.txt:/targets.txt logicbomb1/docker-eef:latest python3 endpoint_finder.py -p targets.txt
+docker run -it --rm --name MEF -v /targets.txt:/targets.txt logicbomb1/docker-eef:latest python3 endpoint_finder.py -p targets.txt
 ```
 
 where targets.txt is the file containing all the domains.
